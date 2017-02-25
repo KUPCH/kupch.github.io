@@ -1,239 +1,250 @@
 <!DOCTYPE HTML>
-<!-- skel-baseline v1.0 | (c) n33 | getskel.com | MIT licensed -->
 <html>
-	<head>
-		<title>KUPCH</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<link rel='shortcut icon' type='image/vnd.microsoft.icon' href='images/favicon.ico'>
-		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-layers.min.js"></script>
-		<script src="js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-xlarge.css" />
-		</noscript>
-	</head>
-	<body id="top">
 
-		<!-- Header -->
-			<header id="header" class="skel-layers-fixed">
-				<h1><a href="#">KUPCH</a></h1>
-				<nav id="nav">
-					<ul>
-						<li><a href="#top">Home</a></li>
-						<li><a href="#about">About</a></li>
-						<li><a href="#practice">Practice</a></li>
-						<li><a href="#content">Content</a></li>
-						<li><a href="#qa">Q&A</a></li>
-						<li><a href="https://kupch.slack.com">Slack</a></li>
-						<li>
-						<form action="https://www.google.com/cse" id="cse-search-box" target="_blank" class="navbar-form navbar-left" role="search">
-								<ul class="actions">
-									<li><input type="hidden" name="cx" value="009383489223497490349:ligfx77peru" /></li>
-									<li><input type="hidden" name="ie" value="UTF-8" /></li>
-									<li><input type="hidden" name="q"/></li>
-									<li><input type="text" name="q" id="query" placeholder="Search Repositories..." /></li>
-									<li><a href="#" type="submit" name="sa" class="icon alt fit fa-search"></a></li>
-									<script type="text/javascript" src="https://www.google.com/cse/brand?form=cse-search-box&lang=ja"></script>
-								</ul>
-						</form>
-						</li>
-					</ul>
-				</nav>
-			</header>
+<head>
+  <title>KUPCH</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='shortcut icon' type='image/vnd.microsoft.icon' href='images/favicon.ico'>
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/skeleton.css" />
+  <link rel="stylesheet" href="css/custom.css" />
+</head>
 
-		<!-- Banner -->
-			<section id="banner">
-				<h2>KUPCH</h2>
-				<p>Kanazawa University Programming Circle HOGEHOGE</p>
-				<ul class="actions vertical small">
-					<li><a href="mailto:info@kupch.com" class="button special">Contact Us</a></li>
-				</ul>
-			</section>
+<body>
+  <!-- header -->
+  <header>
+    <nav>
+      <div class="container">
+        <div class="row">
+          <div class="two columns">
+            <h1><a href="#">KUPCH</a></h1>
+          </div>
+          <div class="six columns">
+            <ul>
+              <li><a href="#about">About</a></li>
+              <li><a href="#practice">Practice</a></li>
+              <li><a href="#content">Content</a></li>
+              <li><a href="#qa">Q&amp;A</a></li>
+              <li><a href="https://kupch.slack.com">Slack</a></li>
+            </ul>
+          </div>
+          <div class="four columns">
+            <form action="https://www.google.com/cse" id="cse-search-box" target="_blank" class="navbar-form navbar-left" role="search">
+              <ul class="actions">
+                <li><input type="hidden" name="cx" value="009383489223497490349:ligfx77peru" /></li>
+                <li><input type="hidden" name="ie" value="UTF-8" /></li>
+                <li><input type="hidden" name="q" /></li>
+                <li><input type="text" name="q" id="query" placeholder="Search Repositories..." /></li>
+                <li>
+                  <a href="#" type="submit" name="sa" class="icon alt fit fa-search"></a>
+                </li>
+                <script type="text/javascript" src="https://www.google.com/cse/brand?form=cse-search-box&lang=ja"></script>
+              </ul>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
 
-		<!-- Main -->
-			<div id="main" class="container">
-				<!-- Intro -->
-					<div class="row">
-						<section class="6u">
-							<h2 id="about">About</h2>
-							<div class="table-wrapper">
-								<p>電子情報学類のメンバーを中心とした金沢大学のプログラミングサークル。<br/>プログラミング技能の向上・情報の交換を目的とし、プログラミング/セキュリティ/組み込みアーキテクチャ/ITニュースの分野のホットな話題を肴にギークな食事会を行うことを主活動とする。<br/><br/>KUPCH（クーチ）という名前で活動中。</p>
-							</div>
-						</section>
-						<section class="3u">
-							<h3>Activity</h3>
-								<table>
-									<tbody>
-										<tr>
-											<td>活動日</td>
-											<td>金曜日</td>
-										</tr>
-										<tr>
-											<td>活動時間</td>
-											<td>19:00〜</td>
-										</tr>
-										<tr>
-											<td>活動場所</td>
-											<td>満保研究室(2A726)</td>
-										</tr>
-									</tbody>
-								</table>
-						</section>
-						<section class="3u">
-							<h3>Principal Languages</h3>
-							<ul>
-								<li>C++ 14</li>
-								<li>Java 7 (ADT準拠)</li>
-								<li>Scala 2.11.x</li>
-								<li>Haskell (GHC 7.8.x)</li>
-								<li>Python 3.x</li>
-								<li>Ruby 2.x</li>
-								<li>Go 1.3.x</li>
-							</ul>
-						</section>
-					</div>
-				<hr class="major" />
-				<!-- Content -->
-					<span class="image left"><img src="images/emblem.png" alt="" /></span>
-					<h2 id="practice">Practice</h2>
-					<p><strong>「電子情報学類のくせに、プログラミングの話が通じない」</strong>という経験をしたことはありませんか？<br/>KUPCHはそういう方々の受け皿として働くプログラミングサークルです。プログラマ同士の交流は勿論のこと、最新の開発ドリブン・開発ツールなどの情報を共有し、サークル内で実験的に使用しながら意見交換することで、プログラミング技能自体を一段上へ高めるための活動をしています。基本的には各個人でやっているプロジェクトを自由に進めてもらう方針ですが、サークルに参加することでチーム開発をすることも容易になりますし、技術的なアドバイスを先輩方からもらうことも可能です。このサークルで最も重要とされる理念は「才能のあるヤツを好き勝手やらせて伸ばす」ことです。このサークルはあくまで互助会的な立ち位置にあり、互いに切磋琢磨しあうことで北陸に眠る才能を社会に羽ばたかせることを至上目的とします。</p>
-					<div class="row">
-						<div class="6u">
-							<h3>基本はご飯を食べに行くだけ</h3>
-							<p>やりたくないことをやるのは社会で働いてからにしてください。サークル活動とはそういうものです。大学生にとって大切なことは、「講義に出ること」「単位をとること」「カロリーを摂取すること」の３つです。ここで人間として最低限必要なコミュニケーション能力を養うだけでなく、逸般人のておくれパケットに対する耐性も身につけましょう。優れたエンジニアの言葉をわかりやすく説明できる能力だけでも社会では意外と重宝されます。最近の技術動向を探るだけでなく、過去問の入手、インターンの話、リクルータとの会合の機会にも活用できるため、おいしいお店を見つけたらサークル活動用に目をつけておいてください。</p>
-						</div>
-						<div class="6u">
-							<h3>「動くものは正義である」という精神</h3>
-							<p>当然ですがプログラミングもします。勉強会で成果を発表することもありますし、研究の補助をする話が舞い込むこともあります。まずはプログラムを書きまくってください。動いたときの感動を大切にしてください。そして、自分一人で完結するのではなく、コードにコメントをきちんと付けた上で誰かに読んでもらうことが大切です。もし、横暴な先輩に「なんだこの糞コードは！」と罵声を浴びせられた場合は、培ったプログラミング技能を駆使し、某匿名掲示板にあることないことポストするスクリプトを書いて<strong>[検閲]</strong>になるまで追い込みましょう。相手が大学を<strong>[検閲]</strong>る頃には、PythonやRubyといったLLの素晴らしさにも気が付いているはずです。</p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="4u">
-							<h3>より先進的な開発環境</h3>
-							<p>基本はgitでコードを管理し、CI（継続的インテグレーション)やTDD（テスト駆動開発）／BDD（ビヘイビア駆動開発）といったスタイルを学んでいってもらいます。<a href="https://education.github.com/pack" target="_blank">GitHub Student Developer Pack</a> や <a href="https://www.dreamspark.com/student/Software-Catalog.aspx" target="_blank">Dreamspark</a> などを活用しながら、最新のツールや環境をいつでも使ってみるクセをつけるようにしてください。もちろん必要性が感じられなければ、使い続ける必要はありません。大切なことは使えるツールなのか使えないツールなのかを見極める能力をつけることです。「もっと楽に開発できる環境」を一緒に探して行きましょう。</p>
-						</div>
-						<div class="4u">
-							<h3>競技コーディングや各種コンテストも</h3>
-							<p>とにかく技術を磨くという意味では、これ以上に活用できるものもありません。サークル内ではTopCoder、AOJ、AtCoderなどの問題を解いている人が多いです。セキュリティの知識が必要となるSECCONや各種ハッカソンだけでなく、競技コーディングの大会にもサークルとして参加していきたいと考えています。当然、優勝を狙って行きたいとは思っていますが、ボコボコにされるのも良い経験になりますので大学生の内にたくさん挑戦をしてみることが大切です。</p>
-						</div>
-						<div class="4u">
-							<h3>ハードウェアにも更に詳しく</h3>
-							<p>金沢大学の講義はハードウェアの分野に内容が偏っていますが、その知識を埋もれさせておくことは非常に惜しいと考えています。プログラミングは当然のことながら、電子工作、ハードウェアハック、ベアメタルレベルでのプログラミングからFPGAによるCPUの自作まで、エンジニアとして幅広い教養を身につけてください。また、電子回路のケースが作れる程度の工作技術があるとなお良いです。北陸ARM U.G. 勉強会などもしていますので、サークル員だけでなく興味のある方は奮ってご参加ください。</p>
-						</div>
-					</div>
-				
-				<hr class="major" />
-				<h2 id="content">Content</h2>
-				<div class="row">
-						<div class="6u">
-							<h3>準備中</h3>
-						</div>
-				</div>
-				<hr class="major" />
-				
-				<h2 id="qa">Q&A</h2>
-				<div class="row box">
-					<div class="6u">
-						<h2>インターンシップ先</h2>
-						<ul class="alt">
-							<li>NTTコミュニケーションズ株式会社</li>
-							<li>株式会社アックス</li>
-							<li>株式会社CRI・ミドルウェア(CRIWARE)</li>
-							<li>奈良先端科学技術大学院大学(NAIST)</li>
-							<li>富士通株式会社</li>
-							<li>理化学研究所　発生・再生科学総合研究センター(理研CDB)</li>
-						</ul>
-					</div>
-					<div class="6u">
-						<h2>就職先</h2>
-						<ul>
-							<li>NTTコミュニケーションズ株式会社</li>
-						</ul>
-					</div>
-				</div>
-				<div class="row double">
-					<div class="6u">
-						<h3>Q. 女子です</h3>
-						<p>A. サークルクラッシュしないように。</p>
-						<h3>Q. 男子です</h3>
-						<p>A. 取り巻きの人じゃないよね……？</p>
-						<h3>Q. ぼっちです</h3>
-						<p>A. 採用。</p>
-						<h3>Q. コミュ障ですけど、大丈夫ですか？</h3>
-						<p>A. それが聞けるなら、お前は俺より軽度だよ。</p>
-						<h3>Q. (☝ ՞ਊ ՞) ☝ウイーン</h3>
-						<p>A. やはりEjectは偉大だった。</p>
-						<h3>Q. ご飯食べてるだけで質を保てるの？</h3>
-						<p>A. 知識がないと会話がかみ合わないから、ご飯を食べているだけでサークルの淘汰は起こる。あと、プログラミングはしろ。</p>
-						<h3>Q. サーバくれ</h3>
-						<p>A. VPSやるので連絡しろ。ただ、個人で借りてもたいした値段じゃないから、バイトを教えたほうが有益かもしれない。</p>
-					</div>
-					<div class="6u">
-						<h3>Q. 就職斡旋しろ</h3>
-						<p>A. 技能があればレコメンドはできる。</p>
-						<h3>Q. みんなが全然手伝ってくれない！　手が足りない！！</h3>
-						<p>A. 手伝ってくれないのは頼み方が悪いから。手が足りないのは能力以上のことをやってるから。少なくとも、人望がないのはお前の落ち度。</p>
-						<h3>Q. プログラミング初心者ですけど、大丈夫ですか！！</h3>
-						<p>A. 上の説明は読んだか？　上の説明を読んだ上でサークルにまだ入りたいと思ってるやつは、既に初心者ではない可能性あるよ。</p>
-						<h3>Q. 彼女欲しいです！</h3>
-						<p>A. 二次元で満足しろ。三次元は他のサークルへ。</p>
-						<h3>Q. やっぱり彼女欲しいです！</h3>
-						<p>A. 生命情報コースを志望しよう。神の御業に挑戦だ！</p>
-						<h3>Q. なんで白鳥の全身タイツが？　あとメイド服の人</h3>
-						<p>A. 入部したらお前もその一味だからな。すね毛は剃ったほうが良いらしいよ。</p>
-						<h3>Q. 留年しました……</h3>
-						<p>A. お前の貴重な才能を、大学が必要としているのさ……。</p>
-					</div>
-				</div>
-			</div>
-			
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="container">
-					<div class="row double">
-						<div class="6u">
-							<div class="row collapse-at-2">
-								<div class="6u">
-									<h3>主な表彰・特許など</h3>
-									<ul class="alt">
-										<li><a href="http://www2.ipdl.inpit.go.jp/begin/BE_DETAIL_MAIN.cgi?sType=0&sMenu=1&sBpos=1&sPos=5&sFile=TimeDir_10/mainstr1413163345352.mst&sTime=0">特許公開2014－025748</a></li>
-										<li><a href="http://www.ipa.go.jp/jinzai/renkei/spcamp2011/">セキュリティ＆プログラミングキャンプ2011 参加</a></li>
-										<li><a href="http://2013.seccon.jp/index.html">第2回Google Hackathon for GAE in 福井 優勝</a></li>
-										<li><a href="http://www.ipa.go.jp/jinzai/renkei/camp2013/">セキュリティ・キャンプ中央大会2013 参加</a></li>
-										<li><a href="http://2013.seccon.jp/index.html">SECCON 2013 北陸大会　準優勝</a></li>
-										<li><a href="http://itpro.nikkeibp.co.jp/android/XWH2014/kanazawa/">Xperia Wearable Hackathon Kanazawa 2位</a></li>
-									</ul>
-								</div>
-								<div class="6u">
-									<h3>イベント主催・発表など</h3>
-									<ul class="alt">
-										<li><a href="https://atnd.org/events/47388">カーネル/VM探検隊@関西 6 発表</a></li>
-										<li><a href="http://www.kernelvm.org/">カーネル／VM探検隊＠北陸 主催・発表</a></li>
-										<li><a href="http://connpass.com/event/7882/">金沢Unity勉強会 発表・発表</a></li>
-										<li><a href="https://sites.google.com/site/embeddedhokuriku/">北陸ARM U.G. 勉強会 主催・発表</a></li>
-										<li><a href="https://sites.google.com/site/embeddedhokuriku/">Raspberry Jam Tokyo #5 金沢サテライト主催　主催・発表</a></li>
-										<li><a href="https://sites.google.com/site/embeddedhokuriku/">みんなのラズパイコンテスト アイデアソン＆ハッカソン（非公式）主催・発表</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="6u">
-							<h3>書籍紹介</h3>
-							<div class="amazlet-box" style="margin-bottom:0px;"><div class="amazlet-image" style="float:left;margin:0px 12px 1px 0px;"><a href="http://tatsu-zine.com/books/raspi-bm" name="amazletlink" target="_blank"><img src="https://tatsu-zine.com/images/books/242/cover_s.jpg" alt="BareMetalで遊ぶ　Raspberry Pi" style="border: none;" /></a></div><div class="amazlet-info" style="line-height:120%;margin-bottom:10px"><div class="amazlet-name" style="margin-bottom:10px;line-height:120%"><a href="http://tatsu-zine.com/books/raspi-bm" name="amazletlink" target="_blank">BareMetalで遊ぶ　Raspberry Pi【電子書籍】</a></div><div class="amazlet-detail">西永俊文<br />達人出版会<br />発行日: 2014-02-14<br />対応フォーマット: PDF, EPUB<br /></div><div class="amazlet-sub-info" style="float:left;"><div class="amazlet-link" style="margin-top:5px"><a href="http://tatsu-zine.com/books/raspi-bm" name="amazletlink" target="_blank">詳細を見る</a></div></div></div><div class="amazlet-footer" style="clear:left"></div></div>
-						</div>
-					</div>
-				</div>
+  <!-- Banner -->
+  <section class="hero">
+    <div class="container">
+      <h2 class="section-heading">KUPCH</h2>
+      <p class="section-description">Kanazawa University Programming Circle HOGEHOGE</p>
+      <a class="button special" href="mailto:info@kupch.com">Contuct Us</a>
+    </div>
+  </section>
 
-				<div class="copyright">
-					&copy; 2014 KUPCH All rights reserved.
-				</div>
-			</footer>
+  <!-- Main -->
+  <div class="container" id="main">
+    <!-- Intro -->
+    <div class="row">
+      <div class="six columns">
+        <h2 id="about">About</h2>
+        <div class="table-wrapper">
+          <p>電子情報学類のメンバーを中心とした金沢大学のプログラミングサークル。<br/>プログラミング技能の向上・情報の交換を目的とし、プログラミング/セキュリティ/組み込みアーキテクチャ/ITニュースの分野のホットな話題を肴にギークな食事会を行うことを主活動とする。<br/><br/>KUPCH（クーチ）という名前で活動中。</p>
+        </div>
+      </div>
+      <div class="three columns">
+        <h3>Activity</h3>
+        <table>
+          <tbody>
+            <tr>
+              <td>活動日</td>
+              <td>金曜日</td>
+            </tr>
+            <tr>
+              <td>活動時間</td>
+              <td>19:00〜</td>
+            </tr>
+            <tr>
+              <td>活動場所</td>
+              <td>満保研究室(2A726)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="three columns">
+        <h3>Principal Languages</h3>
+        <ul>
+          <li>C++ 14</li>
+          <li>Java 8 (ADT準拠)</li>
+          <li>Haskell (GHC 8.x)</li>
+          <li>Python 3.6</li>
+          <li>Ruby 2.4</li>
+          <li>Go 1.8</li>
+        </ul>
+      </div>
+    </div>
+    <hr class="major" />
+    <!-- Content -->
+    <div class="row">
+      <span class="image left"><img src="images/emblem.png" alt="" /></span>
+      <h2 id="practice">Practice</h2>
+      <p><strong>「電子情報学類のくせに、プログラミングの話が通じない」</strong>という経験をしたことはありませんか？<br/>KUPCHはそういう方々の受け皿として働くプログラミングサークルです。プログラマ同士の交流は勿論のこと、最新の開発ドリブン・開発ツールなどの情報を共有し、サークル内で実験的に使用しながら意見交換することで、プログラミング技能自体を一段上へ高めるための活動をしています。基本的には各個人でやっているプロジェクトを自由に進めてもらう方針ですが、サークルに参加することでチーム開発をすることも容易になりますし、技術的なアドバイスを先輩方からもらうことも可能です。このサークルで最も重要とされる理念は「才能のあるヤツを好き勝手やらせて伸ばす」ことです。このサークルはあくまで互助会的な立ち位置にあり、互いに切磋琢磨しあうことで北陸に眠る才能を社会に羽ばたかせることを至上目的とします。</p>
+    </div>
+    <div class="row">
+      <div class="six columns">
+        <h3>基本はご飯を食べに行くだけ</h3>
+        <p>やりたくないことをやるのは社会で働いてからにしてください。サークル活動とはそういうものです。大学生にとって大切なことは、「講義に出ること」「単位をとること」「カロリーを摂取すること」の３つです。ここで人間として最低限必要なコミュニケーション能力を養うだけでなく、逸般人のておくれパケットに対する耐性も身につけましょう。優れたエンジニアの言葉をわかりやすく説明できる能力だけでも社会では意外と重宝されます。最近の技術動向を探るだけでなく、過去問の入手、インターンの話、リクルータとの会合の機会にも活用できるため、おいしいお店を見つけたらサークル活動用に目をつけておいてください。</p>
+      </div>
+      <div class="six columns">
+        <h3>「動くものは正義である」という精神</h3>
+        <p>当然ですがプログラミングもします。勉強会で成果を発表することもありますし、研究の補助をする話が舞い込むこともあります。まずはプログラムを書きまくってください。動いたときの感動を大切にしてください。そして、自分一人で完結するのではなく、コードにコメントをきちんと付けた上で誰かに読んでもらうことが大切です。もし、横暴な先輩に「なんだこの糞コードは！」と罵声を浴びせられた場合は、培ったプログラミング技能を駆使し、某匿名掲示板にあることないことポストするスクリプトを書いて<strong>[検閲]</strong>になるまで追い込みましょう。相手が大学を<strong>[検閲]</strong>る頃には、PythonやRubyといったLLの素晴らしさにも気が付いているはずです。</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="four columns">
+        <h3>より先進的な開発環境</h3>
+        <p>基本はgitでコードを管理し、CI（継続的インテグレーション)やTDD（テスト駆動開発）／BDD（ビヘイビア駆動開発）といったスタイルを学んでいってもらいます。
+          <a href="https://education.github.com/pack" target="_blank">GitHub Student Developer Pack</a> や
+          <a href="https://www.dreamspark.com/student/Software-Catalog.aspx" target="_blank">Dreamspark</a> などを活用しながら、最新のツールや環境をいつでも使ってみるクセをつけるようにしてください。もちろん必要性が感じられなければ、使い続ける必要はありません。大切なことは使えるツールなのか使えないツールなのかを見極める能力をつけることです。「もっと楽に開発できる環境」を一緒に探して行きましょう。</p>
+      </div>
+      <div class="four columns">
+        <h3>競技コーディングや各種コンテストも</h3>
+        <p>とにかく技術を磨くという意味では、これ以上に活用できるものもありません。サークル内ではTopCoder、AOJ、AtCoderなどの問題を解いている人が多いです。セキュリティの知識が必要となるSECCONや各種ハッカソンだけでなく、競技コーディングの大会にもサークルとして参加していきたいと考えています。当然、優勝を狙って行きたいとは思っていますが、ボコボコにされるのも良い経験になりますので大学生の内にたくさん挑戦をしてみることが大切です。</p>
+      </div>
+      <div class="four columns">
+        <h3>ハードウェアにも更に詳しく</h3>
+        <p>金沢大学の講義はハードウェアの分野に内容が偏っていますが、その知識を埋もれさせておくことは非常に惜しいと考えています。プログラミングは当然のことながら、電子工作、ハードウェアハック、ベアメタルレベルでのプログラミングからFPGAによるCPUの自作まで、エンジニアとして幅広い教養を身につけてください。また、電子回路のケースが作れる程度の工作技術があるとなお良いです。北陸ARM
+          U.G. 勉強会などもしていますので、サークル員だけでなく興味のある方は奮ってご参加ください。</p>
+      </div>
+    </div>
+    <hr class="major" />
+    <h2 id="content">Content</h2>
+    <div class="row">
+      <div class="six columns">
+        <h3>準備中</h3>
+      </div>
+    </div>
+    <hr class="major" />
+    <h2 id="qa">Q&amp;A</h2>
+    <div class="row box">
+      <div class="six columns">
+        <h2>インターンシップ先</h2>
+        <ul class="alt">
+          <li>NTTコミュニケーションズ株式会社</li>
+          <li>株式会社アックス</li>
+          <li>株式会社CRI・ミドルウェア(CRIWARE)</li>
+          <li>奈良先端科学技術大学院大学(NAIST)</li>
+          <li>富士通株式会社</li>
+          <li>理化学研究所　発生・再生科学総合研究センター(理研CDB)</li>
+        </ul>
+      </div>
+      <div class="six columns">
+        <h2>就職先</h2>
+        <ul>
+          <li>NTTコミュニケーションズ株式会社</li>
+          <li>株式会社セガゲームス</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="six columns">
+        <h3>Q. 女子です</h3>
+        <p>A. サークルクラッシュしないように。</p>
+        <h3>Q. 男子です</h3>
+        <p>A. 取り巻きの人じゃないよね……？</p>
+        <h3>Q. ぼっちです</h3>
+        <p>A. 採用。</p>
+        <h3>Q. コミュ障ですけど、大丈夫ですか？</h3>
+        <p>A. それが聞けるなら、お前は俺より軽度だよ。</p>
+        <h3>Q. (☝ ՞ਊ ՞) ☝ウイーン</h3>
+        <p>A. やはりEjectは偉大だった。</p>
+        <h3>Q. ご飯食べてるだけで質を保てるの？</h3>
+        <p>A. 知識がないと会話がかみ合わないから、ご飯を食べているだけでサークルの淘汰は起こる。あと、プログラミングはしろ。</p>
+        <h3>Q. サーバくれ</h3>
+        <p>A. VPSやるので連絡しろ。ただ、個人で借りてもたいした値段じゃないから、バイトを教えたほうが有益かもしれない。</p>
+      </div>
+      <div class="six columns">
+        <h3>Q. 就職斡旋しろ</h3>
+        <p>A. 技能があればレコメンドはできる。</p>
+        <h3>Q. みんなが全然手伝ってくれない！　手が足りない！！</h3>
+        <p>A. 手伝ってくれないのは頼み方が悪いから。手が足りないのは能力以上のことをやってるから。少なくとも、人望がないのはお前の落ち度。</p>
+        <h3>Q. プログラミング初心者ですけど、大丈夫ですか！！</h3>
+        <p>A. 上の説明は読んだか？　上の説明を読んだ上でサークルにまだ入りたいと思ってるやつは、既に初心者ではない可能性あるよ。</p>
+        <h3>Q. 彼女欲しいです！</h3>
+        <p>A. 二次元で満足しろ。三次元は他のサークルへ。</p>
+        <h3>Q. やっぱり彼女欲しいです！</h3>
+        <p>A. 生命情報コースを志望しよう。神の御業に挑戦だ！</p>
+        <h3>Q. なんで白鳥の全身タイツが？　あとメイド服の人</h3>
+        <p>A. 入部したらお前もその一味だからな。すね毛は剃ったほうが良いらしいよ。</p>
+        <h3>Q. 留年しました……</h3>
+        <p>A. お前の貴重な才能を、大学が必要としているのさ……。</p>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="container">
+      <div class="three columns">
+        <h3>主な表彰・特許など</h3>
+        <ul class="alt">
+          <li><a href="http://www2.ipdl.inpit.go.jp/begin/BE_DETAIL_MAIN.cgi?sType=0&sMenu=1&sBpos=1&sPos=5&sFile=TimeDir_10/mainstr1413163345352.mst&sTime=0">特許公開2014－025748</a></li>
+          <li><a href="http://www.ipa.go.jp/jinzai/renkei/spcamp2011/">セキュリティ＆プログラミングキャンプ2011 参加</a></li>
+          <li><a href="http://2013.seccon.jp/index.html">第2回Google Hackathon for GAE in 福井 優勝</a></li>
+          <li><a href="http://www.ipa.go.jp/jinzai/renkei/camp2013/">セキュリティ・キャンプ中央大会2013 参加</a></li>
+          <li><a href="http://2013.seccon.jp/index.html">SECCON 2013 北陸大会　準優勝</a></li>
+          <li><a href="http://itpro.nikkeibp.co.jp/android/XWH2014/kanazawa/">Xperia Wearable Hackathon Kanazawa 2位</a></li>
+        </ul>
+      </div>
+      <div class="three columns">
+        <h3>イベント主催・発表など</h3>
+        <ul class="alt">
+          <li><a href="https://atnd.org/events/47388">カーネル/VM探検隊@関西 6 発表</a></li>
+          <li><a href="http://www.kernelvm.org/">カーネル／VM探検隊＠北陸 主催・発表</a></li>
+          <li><a href="http://connpass.com/event/7882/">金沢Unity勉強会 発表・発表</a></li>
+          <li><a href="https://sites.google.com/site/embeddedhokuriku/">北陸ARM U.G. 勉強会 主催・発表</a></li>
+          <li><a href="https://sites.google.com/site/embeddedhokuriku/">Raspberry Jam Tokyo #5 金沢サテライト主催　主催・発表</a></li>
+          <li><a href="https://sites.google.com/site/embeddedhokuriku/">みんなのラズパイコンテスト アイデアソン＆ハッカソン（非公式）主催・発表</a></li>
+        </ul>
+      </div>
+      <div class="six columns">
+        <h3>書籍紹介</h3>
+        <div class="amazlet-box" style="margin-bottom:0px;">
+          <div class="amazlet-image" style="float:left;margin:0px 12px 1px 0px;">
+            <a href="http://tatsu-zine.com/books/raspi-bm" name="amazletlink" target="_blank"><img src="https://tatsu-zine.com/images/books/242/cover_s.jpg" alt="BareMetalで遊ぶ　Raspberry Pi" style="border: none;"
+              /></a>
+          </div>
+          <div class="amazlet-info" style="line-height:120%;margin-bottom:10px">
+            <div class="amazlet-name" style="margin-bottom:10px;line-height:120%"><a href="http://tatsu-zine.com/books/raspi-bm" name="amazletlink" target="_blank">BareMetalで遊ぶ　Raspberry Pi【電子書籍】</a></div>
+            <div class="amazlet-detail">西永俊文<br />達人出版会<br />発行日: 2014-02-14<br />対応フォーマット: PDF, EPUB<br /></div>
+            <div class="amazlet-sub-info" style="float:left;">
+              <div class="amazlet-link" style="margin-top:5px"><a href="http://tatsu-zine.com/books/raspi-bm" name="amazletlink" target="_blank">詳細を見る</a></div>
+            </div>
+          </div>
+          <div class="amazlet-footer" style="clear:left"></div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      &copy; 2017 KUPCH All rights reserved.
+    </div>
+  </footer>
+</body>
 
-	</body>
 </html>
